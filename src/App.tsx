@@ -1,23 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <img src="https://freesvg.org/img/Lavori-in-corso.png" className="App-logo" alt="logo" />
+        <div className="flex flex-col mt-5">
+        <p className="text-3xl md:text-5xl">
+          WORK IN PROGRESS!
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="App-link p-5"
+          href="https://github/xinecraft"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit Github
         </a>
+        </div>
       </header>
     </div>
   );
