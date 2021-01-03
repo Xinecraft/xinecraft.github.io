@@ -12,7 +12,7 @@ function App() {
         </p>
         <a
           className="App-link p-5"
-          href="https://github/xinecraft"
+          href="https://github.com/xinecraft"
           target="_blank"
           rel="noopener noreferrer"
         >
