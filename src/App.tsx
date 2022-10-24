@@ -29,7 +29,7 @@ function App() {
           <div className="title">
             <div className="flex-col">
               <span>
-                Hi! I am <span className="pf">Zishan</span>
+                Hi! I am <span className="pf zishan">Zishan</span>
               </span>
               <span className="subtitle">Web Developer</span>
             </div>
