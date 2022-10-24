@@ -1,0 +1,15 @@
+name: Deployment
+
+concurrency: deploy
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy
+        run: sh deploy.sh
