@@ -1,0 +1,86 @@
+#header {
+  height: 100vh;
+}
+
+.side .title {
+  color: white;
+  font-size: 4vw;
+  margin: 0px 15vw;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side .subtitle {
+  color: white;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.side {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  align-content: center;
+  place-items: center;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+#left-side {
+  background-color: var(--left-color);
+  z-index: 2;
+}
+
+#right-side {
+  background-color: var(--right-color);
+}
+
+#right-side .title {
+  color: var(--dt);
+}
+
+#right-side .subtitle {
+  color: var(--dt);
+}
+
+#left-side .title {
+  color: var(--lt);
+}
+
+#left-side .subtitle {
+  color: var(--lt);
+}
+
+.pf {
+  font-family: 'Pacifico', cursive;
+  font-size: 7vw;
+}
+
+#left-side .pf {
+  color: var(--right-color);
+}
+
+#right-side .pf {
+  color: var(--lt);
+}
+
+.linethru {
+  text-decoration: line-through;
+}
+
+#content {
+  background-color: white;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}

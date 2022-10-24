@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@500&display=swap');
+
+:root {
+  --light: #FFB100;
+  --dark: #003844;
+
+  --lt: #F4EDEA;
+  --dt: #12263A;
+  
+  --left-color: var(--dark);
+  --right-color: var(--light);
+}
+
+body {  
+  background-color: white;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
