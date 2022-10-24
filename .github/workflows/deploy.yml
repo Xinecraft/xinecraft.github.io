@@ -12,5 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: deploy
+
+      - name: Install dependencies
+      - run: npm ci
+
+      - name: Deploy
         run: sh deploy.sh
