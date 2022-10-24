@@ -18,8 +18,8 @@ function App() {
   };
 
   useEffect(() => {
-    header.current.onmousemove = (e) => handleMove(e);
-    header.current.ontouchmove = (e) => handleMove(e.touches[0]);
+    addEventListener("mousemove", (e) => handleMove(e));
+    addEventListener("touchmove", (e) => handleMove(e.touches[0]));
   }, []);
 
   return (
