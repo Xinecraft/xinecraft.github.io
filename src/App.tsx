@@ -36,7 +36,7 @@ function App() {
             <div className="skin">
               <SkinViewer
                 height={500}
-                width={300}
+                width={450}
                 animation="run"
                 speed={0.2}
                 cape={true}
@@ -60,7 +60,7 @@ function App() {
             <div className="skin">
               <SkinViewer
                 height={500}
-                width={300}
+                width={450}
                 animation="walk"
                 speed={0.4}
                 cape={false}
