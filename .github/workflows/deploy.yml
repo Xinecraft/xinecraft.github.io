@@ -18,8 +18,8 @@ jobs:
 
       - name: setup git config
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+          git config --global user.name "GitHub Actions Bot"
+          git config --blobal user.email "<github-action-bot@github.com>"
 
       - name: Deploy
         run: sh deploy.sh
