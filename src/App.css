@@ -4,18 +4,25 @@
 
 .side .title {
   color: white;
-  font-size: 4vw;
+  font-size: 3vw;
   margin: 0px 15vw;
   width: 80vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Fredoka One", sans-serif;
 }
 
 .side .subtitle {
   color: white;
-  font-size: 1.6vw;
-  font-family: "Ubuntu", sans-serif;
+  font-size: 1.4vw;
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+}
+
+.pf {
+  font-family: "Fredoka One", cursive;
+  font-size: 7vw;
 }
 
 .side {
@@ -37,7 +44,7 @@
 
 #right-side {
   background-color: var(--right-color);
-  background: linear-gradient(322deg, #87d900, #d9d500, #ffb100);
+  background: linear-gradient(322deg, #00ccf0, #00c3ff, #009ce4);
   background-size: 600% 600%;
 
   -webkit-animation: animateBg 30s ease infinite;
@@ -48,7 +55,7 @@
 
 .zishan {
   animation: background-pan 3s linear infinite;
-  background: linear-gradient(to right, #87d900, #d9d500, #ffb100, #87d900);
+  background: linear-gradient(to right, #a600d9, #d200d9, #00d9ff, #0089d9);
   background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,11 +107,6 @@
 
 #left-side .subtitle {
   color: var(--lt);
-}
-
-.pf {
-  font-family: "Pacifico", cursive;
-  font-size: 7vw;
 }
 
 #left-side .pf {

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Leckerli+One&family=Pacifico&family=Poppins:wght@400;700&display=swap');
 
 :root {
   --light: #FFB100;
-  --dark: #003844;
+  --dark: #131313;
 
   --lt: #F4EDEA;
-  --dt: #12263A;
+  --dt: #131313;
   
   --left-color: var(--dark);
   --right-color: var(--light);
@@ -14,5 +14,5 @@
 body {  
   background-color: white;
   margin: 0px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }

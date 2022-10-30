@@ -31,7 +31,7 @@ function App() {
               <span>
                 Hi! I am <span className="pf zishan">Zishan</span>
               </span>
-              <span className="subtitle">Web Developer</span>
+              <span className="subtitle">Software Developer</span>
             </div>
             <div className="skin">
               <SkinViewer
@@ -53,8 +53,7 @@ function App() {
               </span>
               <span></span>
               <span className="subtitle">
-                <span className="linethru">Web Developer</span> Pro
-                Procrastinator
+                PHP | JavaScript | Java | Google
               </span>
             </div>
             <div className="skin">
