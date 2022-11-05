@@ -53,7 +53,7 @@ function App() {
               </span>
               <span></span>
               <span className="subtitle">
-                PHP | JavaScript | Java | Google
+                Status: <span className="procrastinate">Procrastinating...</span>
               </span>
             </div>
             <div className="skin">

@@ -62,6 +62,15 @@
   white-space: nowrap;
 }
 
+.procrastinate {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(to right, #ffffff, #3d3d3d, #323232, #ffffff);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
 @keyframes background-pan {
   from {
     background-position: 0% center;
