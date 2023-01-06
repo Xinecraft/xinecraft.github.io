@@ -187,3 +187,22 @@
     background-position: 2% 0%;
   }
 }
+
+.links {
+  width: 100%;
+  font-size: 1vw;
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.links a,
+span {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

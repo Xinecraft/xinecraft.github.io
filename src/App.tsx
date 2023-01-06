@@ -1,10 +1,4 @@
-import React, {
-  MutableRefObject,
-  useDebugValue,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import { MutableRefObject, useEffect, useRef } from "react";
 import "./App.css";
 import SkinViewer from "./components/SkinViewer";
 
@@ -32,6 +26,11 @@ function App() {
                 Hi! I am <span className="pf zishan">Zishan</span>
               </span>
               <span className="subtitle">Software Developer</span>
+              <span className="links">
+                <a href="https://github.com/xinecraft">Github: @Xinecraft</a>
+                <span>-</span>
+                <a href="./resume.pdf">View Resume</a>
+              </span>
             </div>
             <div className="skin">
               <SkinViewer
@@ -53,7 +52,13 @@ function App() {
               </span>
               <span></span>
               <span className="subtitle">
-                Status: <span className="procrastinate">Procrastinating...</span>
+                Status:{" "}
+                <span className="procrastinate">Procrastinating...</span>
+              </span>
+              <span className="links">
+                <a href="https://github.com/xinecraft">Github: @Xinecraft</a>
+                <span>-</span>
+                <a href="./resume.pdf">View Resume</a>
               </span>
             </div>
             <div className="skin">
